@@ -1,76 +1,83 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web&family=Akaya+Telivigala&family=Playfair+Display:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&family=Akaya+Telivigala&family=Playfair+Display:ital@1&display=swap');
 * {
-  font-family: "Titillium Web", sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.leaflet-container {
+	height: 70vh;
 }
 
 .navbar {
-  background: rgb(46, 46, 46) !important;
+	// background: transparent !important;
+	margin: 0 !important;
 }
 .navbar .navbar-brand {
-  font-size: 20px;
-  font-family: "Akaya Telivigala", cursive;
-  color: rgb(209, 209, 209) !important;
+	font-size: 20px;
+	// font-family: 'Akaya Telivigala', cursive;
+	color: rgb(209, 209, 209) !important;
 }
 .navbar .nav-item {
-  padding: 10px 20px;
+	padding: 10px 10px;
 }
 .navbar .nav-link {
-  font-size: 20px;
-  margin-left: 10px;
-  color: rgb(209, 209, 209) !important;
-  font-family: "Playfair Display", serif;
-  // font-size: 20px;
+	font-size: 16px;
+	margin-left: 10px;
+	color: rgb(209, 209, 209) !important;
+	// font-family: 'Playfair Display', serif;
+	// font-size: 20px;
 }
 .fa-bars {
-  color: rgb(209, 209, 209) !important;
-  font-size: 20px;
+	color: rgb(209, 209, 209) !important;
+	font-size: 20px;
 }
 
 .home {
-  // border: 2px solid red;
-  .countdown-timer {
-    height: 800px;
-    // border: 2px solid red;
-    // .countdown-wrapper {
-    //   height: 100%;
-    //   border: 2px solid brown;
+	height: 100vh;
+	.countdown-timer {
+		height: 100%;
+		background: url(https://cdn.britannica.com/38/218438-131-914166E8/Cycling-Stage-9-Tour-de-France-July-7-2013.jpg)
+			#000000c4;
+		background-size: cover;
+		background-blend-mode: multiply;
+		.countdown-wrapper {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
 
-    // }
-    // background-image: url("http://www.pillarsofhealth.ca/wp-content/uploads//2013/07/15978-desktop-wallpapers-cycling.jpg");
-    background-image: url("https://cdn.britannica.com/38/218438-131-914166E8/Cycling-Stage-9-Tour-de-France-July-7-2013.jpg");
-    // background-image: linear-gradient(0.25turn, #83aabb, #ebf8e1, #cac5bf);
-    // background-image: url("https://wallpaperaccess.com/full/344770.jpg");
-    // background-image: url("./assets/images/bike.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    // background-size: cover;
-    .countdown-wrapper {
-      // height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0 -8px 0 -8px;
-    }
+		.time-section {
+			padding: 0px 5px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			color: #fcfcfc !important;
 
-    .time-section {
-      padding: 0px 5px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      color: #fcfcfc !important;
+			.time {
+				margin: 0;
+				font-size: 60px !important;
+				font-weight: 800 !important;
+			}
+		}
 
-      .time {
-        margin: 0;
-        font-size: 60px !important;
-        font-weight: 800 !important;
-      }
-    }
+		.small {
+			font-size: 18px !important;
+			color: black;
+		}
+	}
+}
 
-    .small {
-      font-size: 18px !important;
-      color: black;
-    }
-  }
+.photos,
+.location,
+.riders,
+.contest {
+	.hero {
+		height: 50vh;
+		background: url(https://cdn.britannica.com/38/218438-131-914166E8/Cycling-Stage-9-Tour-de-France-July-7-2013.jpg)
+			#000000c4;
+		background-size: cover;
+		background-blend-mode: multiply;
+	}
 }
