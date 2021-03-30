@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&family=Akaya+Telivigala&family=Playfair+Display:ital@1&display=swap");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.navbar {
+  background: rgb(46, 46, 46) !important;
+}
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-family: "Akaya Telivigala", cursive;
+  color: rgb(209, 209, 209) !important;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(209, 209, 209) !important;
+  font-family: "Playfair Display", serif;
+  // font-size: 20px;
+}
+.fa-bars {
+  color: rgb(209, 209, 209) !important;
+  font-size: 20px;
+}
+
+.home {
+  // border: 2px solid red;
+  .countdown-timer {
+    height: 800px;
+    // border: 2px solid red;
+    // .countdown-wrapper {
+    //   height: 100%;
+    //   border: 2px solid brown;
+
+    // }
+    // background-image: url("http://www.pillarsofhealth.ca/wp-content/uploads//2013/07/15978-desktop-wallpapers-cycling.jpg");
+    background-image: url("https://cdn.britannica.com/38/218438-131-914166E8/Cycling-Stage-9-Tour-de-France-July-7-2013.jpg");
+    // background-image: linear-gradient(0.25turn, #83aabb, #ebf8e1, #cac5bf);
+    // background-image: url("https://wallpaperaccess.com/full/344770.jpg");
+    // background-image: url("./assets/images/bike.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    // background-size: cover;
+    .countdown-wrapper {
+      // height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 -8px 0 -8px;
+    }
+
+    .time-section {
+      padding: 0px 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      color: #fcfcfc !important;
+
+      .time {
+        margin: 0;
+        font-size: 60px !important;
+        font-weight: 800 !important;
+      }
+    }
+
+    .small {
+      font-size: 18px !important;
+      color: black;
+    }
+  }
+}
